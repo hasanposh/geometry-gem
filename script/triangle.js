@@ -1,3 +1,10 @@
+document.getElementById("triangle-card").addEventListener("mouseover", function() {
+    document.getElementById("triangle-card").style.backgroundColor = "green";
+})
+document.getElementById("triangle-card").addEventListener("mouseout", function() {
+    document.getElementById("triangle-card").style.backgroundColor = "white";
+});
+
 function calcTraingle(){
     // triiangle base
     const triangleBase  = document.getElementById('traingle-base')
